@@ -58,11 +58,12 @@
  |  streaming_tv              | non-null   object | Whether a customer has streaming tv (Yes, No, No internet service)|
  |  streaming_movies          | non-null   object | Whether a customer has streaming movies (Yes, No, No internet service)|
  |  paperless_billing         | non-null   object | Whether a customer has paperless billing (Yes, No, No internet service)|
- |  monthly_charges           | non-null   float64| The amount charged monthly ($##.##)|
+ |  monthly_charges           | non-null   float64 | The amount charged monthly ($##.##)|
  |  total_charges             | non-null   object | Total amount charged ($##.##)|
  |  contract_type             | non-null   object | The type of contract (Month-to-month, One year, Two year)|
  |  internet_service_type     | non-null   object | The type of internet service (DSL, Fiber optic, None)|
  |  payment_type              | non-null   object | The type of payment (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))|
+ |:-------|:--------|:----------|
 
 
 #### Initial Hypotheses
