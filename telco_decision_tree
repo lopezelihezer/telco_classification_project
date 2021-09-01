@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="contract_type_Month-to-month <= 0.5\ngini = 0.39\nsamples = 3943\nvalue = [2897, 1046]", fillcolor="#eeae80"] ;
+1 [label="internet_service_type_Fiber optic <= 0.5\ngini = 0.124\nsamples = 1781\nvalue = [1663, 118]", fillcolor="#e78a47"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="contract_type_Two year <= 0.5\ngini = 0.073\nsamples = 1245\nvalue = [1198, 47]", fillcolor="#e68641"] ;
+1 -> 2 ;
+3 [label="gini = 0.126\nsamples = 533\nvalue = [497, 36]", fillcolor="#e78a47"] ;
+2 -> 3 ;
+4 [label="gini = 0.03\nsamples = 712\nvalue = [701, 11]", fillcolor="#e5833c"] ;
+2 -> 4 ;
+5 [label="tenure <= 70.5\ngini = 0.23\nsamples = 536\nvalue = [465, 71]", fillcolor="#e99457"] ;
+1 -> 5 ;
+6 [label="gini = 0.282\nsamples = 406\nvalue = [337, 69]", fillcolor="#ea9b62"] ;
+5 -> 6 ;
+7 [label="gini = 0.03\nsamples = 130\nvalue = [128, 2]", fillcolor="#e5833c"] ;
+5 -> 7 ;
+8 [label="internet_service_type_Fiber optic <= 0.5\ngini = 0.49\nsamples = 2162\nvalue = [1234, 928]", fillcolor="#f9e0ce"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="tenure <= 5.5\ngini = 0.409\nsamples = 958\nvalue = [683, 275]", fillcolor="#efb489"] ;
+8 -> 9 ;
+10 [label="gini = 0.487\nsamples = 389\nvalue = [226, 163]", fillcolor="#f8dcc8"] ;
+9 -> 10 ;
+11 [label="gini = 0.316\nsamples = 569\nvalue = [457, 112]", fillcolor="#eba06a"] ;
+9 -> 11 ;
+12 [label="tenure <= 14.5\ngini = 0.496\nsamples = 1204\nvalue = [551, 653]", fillcolor="#e0f0fb"] ;
+8 -> 12 ;
+13 [label="gini = 0.414\nsamples = 546\nvalue = [160, 386]", fillcolor="#8bc6f0"] ;
+12 -> 13 ;
+14 [label="gini = 0.482\nsamples = 658\nvalue = [391, 267]", fillcolor="#f7d7c0"] ;
+12 -> 14 ;
+}
