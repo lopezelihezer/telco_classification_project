@@ -41,29 +41,52 @@
 |:-------|:--------|:----------|
 
  |  payment_type_id           | non-null   int64  | ID associated to payment type (1, 2, 3, 4) |
+ |:-------|:--------|:----------|
  |  internet_service_type_id  | non-null   int64  | ID associated with internet service type (1, 2, 3) |
+ |:-------|:--------|:----------|
  |  contract_type_id          | non-null   int64  | ID associated with contract type (1,2,3) |
+ |:-------|:--------|:----------|
  |  customer_id               | non-null   object | ID associated to customer ####-ABCDE |
+ |:-------|:--------|:----------|
  |  gender                    | non-null   object | Gender of customer (Male/Female)|
+ |:-------|:--------|:----------|
  |  senior_citizen            | non-null   int64  | Whether a customer is a Senior Citizen (0, 1)|
+ |:-------|:--------|:----------|
  |  partner                   | non-null   object | Whether a customer has a partner (Yes, No)|
+ |:-------|:--------|:----------|
  |  dependents                | non-null   object | Whether a customer has dependents (Yes, No)|
+ |:-------|:--------|:----------|
  |  tenure                    | non-null   int64  | How long a customer has been with us in terms of months|
+ |:-------|:--------|:----------|
  |  phone_service             | non-null   object | Whether a customer has phone service (Yes, No)|
+ |:-------|:--------|:----------|
  |  multiple_lines            | non-null   object | Whether a customer has multiple lines (Yes, No, No phone service)|
+ |:-------|:--------|:----------|
  |  online_security           | non-null   object | Whether a customer has online security (Yes, No, No internet service)|
+ |:-------|:--------|:----------|
  |  online_backup             | non-null   object | Whether a customer has online backup (Yes, No, No internet service)|
+ |:-------|:--------|:----------|
  |  device_protection         | non-null   object | Whether a customer has device protection (Yes, No, No internet service)|
+ |:-------|:--------|:----------|
  |  tech_support              | non-null   object | Whether a customer has tech support (Yes, No, No internet service)|
+ |:-------|:--------|:----------|
  |  streaming_tv              | non-null   object | Whether a customer has streaming tv (Yes, No, No internet service)|
+ |:-------|:--------|:----------|
  |  streaming_movies          | non-null   object | Whether a customer has streaming movies (Yes, No, No internet service)|
+ |:-------|:--------|:----------|
  |  paperless_billing         | non-null   object | Whether a customer has paperless billing (Yes, No, No internet service)|
+ |:-------|:--------|:----------|
  |  monthly_charges           | non-null   float64 | The amount charged monthly ($##.##)|
+ |:-------|:--------|:----------|
  |  total_charges             | non-null   object | Total amount charged ($##.##)|
+ |:-------|:--------|:----------|
  |  contract_type             | non-null   object | The type of contract (Month-to-month, One year, Two year)|
+ |:-------|:--------|:----------|
  |  internet_service_type     | non-null   object | The type of internet service (DSL, Fiber optic, None)|
+ |:-------|:--------|:----------|
  |  payment_type              | non-null   object | The type of payment (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))|
  |:-------|:--------|:----------|
+
 
 
 #### Initial Hypotheses
