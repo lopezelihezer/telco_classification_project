@@ -5,6 +5,9 @@
 <hr style="border-top: 10px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
 
 ### Project Summary
+
+The purpose of this project was to find drivers of churn an use them to build models that accurately predict churn. I found that all of the classification models I created, (LogisticRegression, DecisionTree, and RandomForest), predicted the churn rate with an accuracy no higher than 81%. I chose my Random Forest model with a max depth of 5 as my best model and got an 82% accuracy rate for predicting churn when applied to the test split. This model outperformed my baseline score of 73% accuracy. Some initial exploration and statistical testing revealed that engineering some new features like "add_ons" and "tenure_over_18_mos" might help my models predict with even more accuracy. However once applied to different models, they made little difference.
+
 <hr style="border-top: 10px groove blueviolet; margin-top: 1px; margin-bottom: 1px"></hr>
 
 #### Project Objectives
